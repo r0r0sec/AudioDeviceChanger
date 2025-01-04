@@ -1,6 +1,6 @@
 # AudioDeviceChanger
 
-A PowerShell script with a CMD wrapper to easily switch between audio devices on Windows, utilizing `nircmd.exe`. Perfect for use with keyboard macros, hotkeys, or devices like a Stream Deck.
+A PowerShell script with a CMD wrapper to easily switch between audio devices on Windows, utilizing `nircmd.exe`. Perfect for use with keyboard macro keys, or devices like a Stream Deck.
 
 ## Features
 
@@ -37,7 +37,7 @@ For the script to work, your audio device names in Windows must match the values
 2. Click on your desired audio device and rename it, for example:
    - `Headphones`
    - `Speakers`
-3. Update the script variables values if you use different names:
+3. Update the script variables values in `AudioDeviceChanger.ps1` if you use different names:
    ```powershell
    # Update these values in the script
    $AudioDevice_1 = "YourDevice1Name"
