@@ -78,6 +78,14 @@ This will execute the script without bringing up any visible windows, ensuring a
 
 Contributions are welcome! Please submit a pull request or open an issue if you have ideas for improvements or encounter any bugs.
 
+## Third-Party Software
+
+This project uses **NirCmd**, a freeware utility developed by NirSoft. NirCmd is licensed as freeware and can be freely distributed as long as no modifications are made to the original files.
+
+For more information and to download the utility, visit: [https://www.nirsoft.net/utils/nircmd.html](https://www.nirsoft.net/utils/nircmd.html).
+
+**Note**: The NirCmd files included in this project have not been modified in any way.
+
 ## Acknowledgments
 
 - Thanks to NirSoft for the fantastic `nircmd.exe` utility.
