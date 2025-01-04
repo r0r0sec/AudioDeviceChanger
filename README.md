@@ -49,7 +49,7 @@ For the script to work, your audio device names in Windows must match the values
 ### Using the PowerShell Script (`AudioDeviceChanger.ps1`)
 
 1. Open PowerShell in the script's directory.
-2. Run the script or rightcklick "Run with PowerShell":
+2. Run the script or right-click "Run with PowerShell":
    ```powershell
    .\AudioDeviceChanger.ps1
    ```
@@ -68,6 +68,9 @@ For the script to work, your audio device names in Windows must match the values
 The `PSWrapper.cmd` file allows you to execute the script silently in the background, ideal for hotkeys or integration with devices like a Stream Deck.
 In order to have the script run in the background, you can use the provided `nircmd.exe` and integrate it with the following command:
 
+1. Right-click the Stream Deck system tray icon "Configure Stream Deck"
+2. Add a new key from the Navigation "System" -> "Open"
+3. Paste the following command under "App / File:"
 ```plaintext
 "..\AudioDeviceChanger\nircmd-x64\nircmd.exe" exec hide "..\AudioDeviceChanger\PSWrapper.cmd"
 ```
